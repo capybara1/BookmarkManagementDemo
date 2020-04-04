@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  app:
+    container_name: golinks
+    image: "${IMAGE_NAME}:${IMAGE_TAG}"
+    ports:
+      - "${LISTEN_ADDRESS}:${LISTEN_PORT}:8000"

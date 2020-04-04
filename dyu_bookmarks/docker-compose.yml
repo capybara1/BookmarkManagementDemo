@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  app:
+    container_name: dyu_bookmarks
+    image: local/dyu:latest
+    build: .
+    ports:
+      - "${LISTEN_ADDRESS}:${LISTEN_PORT}:5000"

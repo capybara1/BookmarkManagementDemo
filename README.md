@@ -12,3 +12,11 @@
 - [unmark](./unmark/README.md)
 - [xbrowsersync](./xbrowsersync/README.md)
 - [ymarks](./ymarks/README.md)
+
+## HowTo
+
+```
+git submodule update --init --recursive
+```
+
+Most demos can be started/stopped using Windows batch files

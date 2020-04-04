@@ -1,0 +1,21 @@
+[submodule "shaarli/project_repo"]
+	path = shaarli/project_repo
+	url = https://github.com/shaarli/Shaarli.git
+[submodule "reminiscence/project_repo"]
+	path = reminiscence/project_repo
+	url = https://github.com/kanishka-linux/reminiscence.git
+[submodule "unmark/project_repo"]
+	path = unmark/project_repo
+	url = https://github.com/cdevroe/unmark.git
+[submodule "xbrowsersync/project_repo"]
+	path = xbrowsersync/project_repo
+	url = https://github.com/xbrowsersync/api-docker.git
+[submodule "lobsters/project_repo"]
+	path = lobsters/project_repo
+	url = https://github.com/utensils/docker-lobsters.git
+[submodule "geekmarks/project_repo"]
+	path = geekmarks/project_repo
+	url = https://github.com/dimonomid/geekmarks.git
+[submodule "nofuss/project_repo"]
+	path = nofuss/project_repo
+	url = https://github.com/mapio/nofussbm.git
