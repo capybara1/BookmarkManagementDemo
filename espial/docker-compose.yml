@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  espial:
+    container_name: espial
+    image: "${IMAGE_NAME}:${IMAGE_TAG}"
+    environment:
+      - SQLITE_DATABASE
+      - IP_FROM_HEADER
+      - ekg_datadir
+    ports:
+      - "${LISTEN_ADDRESS}:${LISTEN_PORT}:3000"
+    volumes:
+      - "data:/app/data"
+volumes:
+  data:
+    name: "${VOLUME_NAME}"
