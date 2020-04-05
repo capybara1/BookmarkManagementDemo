@@ -8,9 +8,10 @@ Project resources:
 
 Features:
 
-- Synchronization of web browser bookmarks by plugin
+- Synchronization of web browser bookmarks by extension
   - Chrome, Mozilla, Android App
 
 Remarks:
 
 - No frontend
+- Code activity: few (as of April 2020)

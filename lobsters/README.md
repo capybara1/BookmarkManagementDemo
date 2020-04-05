@@ -8,4 +8,9 @@ Project resources:
 
 Features:
 
+- Tags
 - Storage: mariadb
+
+Remarks:
+
+- Code activity: moderate (as of April 2020)

@@ -7,7 +7,7 @@ Project resources:
 
 Features:
 
-- Synchronization of web browser bookmarks by plugin/app
+- Synchronization of web browser bookmarks by extension/app
   - Mozilla
 - Storage: sqlite3
 

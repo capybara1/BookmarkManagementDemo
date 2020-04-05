@@ -6,8 +6,9 @@ Project resources:
 
 Features:
 
+- Tags
+- Folders
+- Thumbnails
+- Summary by fetch
+- Flag as "read later"
 - Storage: postgresql
-
-Remarks:
-
-- docker-compose project in github project

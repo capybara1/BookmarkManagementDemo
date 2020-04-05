@@ -11,7 +11,15 @@ Features:
 - Complex search filters
 - Tags
 - Notes
-- Markdown support
-- Import/export t
 - Title by fetch
-- Storage: sqlite3
+- Flag as "read later"
+- Favourites
+- Bookmarklet
+- Markdown support
+- Import from json
+- Export to json
+- Persistent storage: sqlite3
+
+Remarks:
+
+- Code activity: alife (as of April 2020)
