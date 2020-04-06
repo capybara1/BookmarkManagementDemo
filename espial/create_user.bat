@@ -5,13 +5,12 @@ if "%1"=="" (
   exit /B 1
 )
 if "%2"=="" (
-  echo "Second parameter must be the file name to import"
+  echo "Second parameter must be the password"
   exit /B 2
 )
 
 docker run ^
   --rm ^
-  --volume "%cd%:/backup" ^
   --volume "espial_data:/app/data" ^
   jonschoning/espial:espial ^
-  ./migration importbookmarks --conn /app/data/espial.sqlite3 --userName "%1" --bookmarkFile "/backup/%2"
+  ./migration createuser --conn /app/data/espial.sqlite3 --userName "%1" --userPassword "%2"
